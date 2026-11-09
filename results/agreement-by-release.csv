@@ -1,0 +1,5 @@
+release_family,releases,assertions_agreed,assertions_total,agreement_pct,notes
+EBA reporting frameworks,4.0;4.1;4.2;4.3,330046,330046,100.00,plus every instance DTS and validation-code comparison
+EIOPA,Solvency II;pension funds;IRRD;FICOD,86824,86960,99.84,
+ESEF,ESEF,472,481,98.13,plus a few document and context differences
+All,all releases,417342,417531,99.95,about 290 sample filings

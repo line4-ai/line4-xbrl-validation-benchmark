@@ -1,0 +1,3 @@
+measure,line4_engine,reference_processor,conditions
+one large FINREP filing,16 seconds,4.2 hours,controlled conditions
+full sample set (first run),13.5 minutes CPU,35.8 hours CPU,rough: heavily loaded machine; reference processor is single-threaded; controlled head-to-head still to come

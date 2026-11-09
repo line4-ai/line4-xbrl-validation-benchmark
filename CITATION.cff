@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite them as below."
+title: "Line4 XBRL validation benchmark"
+type: dataset
+authors:
+  - name: "Line4 Ltd"
+date-released: 2026-11-05
+url: "https://www.line4.ai/blog/xbrl-validation-engine-benchmark"
+repository-code: "https://github.com/line4-ai/line4-xbrl-validation-benchmark"
+license: CC-BY-4.0
+keywords:
+  - XBRL
+  - XBRL validation
+  - SupTech
+  - supervisory technology
+  - EBA
+  - EIOPA
+  - ESEF
+  - Arelle

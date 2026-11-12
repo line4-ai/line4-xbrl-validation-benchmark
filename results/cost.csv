@@ -1,0 +1,57 @@
+framework,file,arelle_cpu_s,arelle_peak_gb,line4_engine,line4_cpu_s,line4_peak_gb,ratio_cpu,ratio_mem,arelle_wall_s,line4_wall_s,file_mb,arelle_assertions,line4_rules,line4_checks,line4_runs,notes
+EIOPA 2.8.2,zeros/ars_2024-10-15_instance.xbrl,4149.6,5.71,Rust command line,1.559,1.220,2661,4.7,4525.4,1.564,46.55,2373,1801,4065,10,EIOPA sample
+EIOPA 2.8.2,random/ars_2024-10-15_instance.xbrl,3698.2,6.77,Rust command line,1.575,1.223,2349,5.5,3834.5,1.579,46.90,2373,1805,4069,10,EIOPA sample
+EIOPA 2.8.2,zeros/arg_2024-10-15_instance.xbrl,2149.0,3.89,Rust command line,0.5947,0.493,3614,7.9,2166.7,0.6021,18.77,1422,996,2479,10,EIOPA sample
+EIOPA 2.8.2,random/arb_2024-10-15_instance.xbrl,1834.4,4.65,Rust command line,1.553,1.083,1181,4.3,1983.1,1.561,46.44,2092,1532,3541,10,EIOPA sample
+BoE banking 4.1.1,ABCDEFGHIJ0123456789_GB_banking_PRA001_2026-07-31_20260820132546000.xbrl,1815.6,14.98,Rust command line,1.797,1.392,1011,11,1877.3,1.809,45.42,1441,1361,86993,10,"Bank of England sample; another Arelle run of this file was stopped before it finished, after 414 CPU s (5401 s wall)"
+BoE banking 4.1.1,PRA001-random.xbrl,1750.8,14.58,Rust command line,1.861,1.445,941,10,1772.5,1.867,46.73,1441,1361,86993,8,synthetic file (every datapoint filled)
+EIOPA 2.10.0,ARS-defaults.xbrl,1135.5,5.85,Rust command line,1.757,1.572,646,3.7,1274.6,1.765,37.11,2672,2089,7993,10,synthetic file (every datapoint filled)
+BoE banking 4.1.1,ABCDEFGHIJ0123456789_GB_banking_PRA116_2026-07-31_20260813120753000.xbrl,1041.4,9.49,Rust command line,0.7123,0.627,1462,15,1052.3,0.7175,17.76,531,531,40735,10,"Bank of England sample; another Arelle run of this file was stopped before it finished, after 365 CPU s (27965 s wall)"
+BoE banking 4.1.1,PRA001-xmath-sample.xbrl,983.4,6.74,Rust command line,0.4930,1.019,1995,6.6,8651.2,0.4995,0.01,1441,53,53,10,small test file for the log and power checks
+EBA 3.0 (UK),COREP_OF_CON-codes.xbrl,977.3,6.06,Rust command line,0.9260,0.816,1055,7.4,2205.6,0.9324,26.95,1343,1188,46658,10,synthetic file (every datapoint filled); Line4 engine build that holds the EBA 3.0 checks
+EBA 3.0 (UK),p1_DUMMYLEI123456789012_GB_COREP030000_COREPOFIND_2021-06-30_20201218154739000.xbrl,904.0,5.58,Rust command line,0.9600,0.850,942,6.6,1184.7,0.9671,31.99,1316,1161,46621,10,public sample; Line4 engine build that holds the EBA 3.0 checks
+EIOPA 2.10.0,ARB-targets.xbrl,878.0,5.08,Rust command line,1.568,1.270,560,4.0,947.8,1.574,38.01,2033,1521,7053,10,synthetic file (every datapoint filled)
+EIOPA 2.8.2,ARS-targets.xbrl,810.3,7.85,Rust command line,2.259,1.671,359,4.7,845.9,2.302,46.75,2373,1842,8789,6,synthetic file (every datapoint filled)
+Solvency UK 2.2.0,ARS-defaults.xbrl,541.7,8.21,Rust command line,2.722,1.204,199,6.8,543.7,2.729,38.43,1849,1832,7853,6,synthetic file (every datapoint filled)
+Solvency UK 2.2.0,ARS-targets.xbrl,530.6,8.48,Rust command line,3.186,1.222,167,6.9,532.8,3.555,41.08,1849,1822,8386,6,synthetic file (every datapoint filled)
+EBA 3.0 (UK),p1_DUMMYLEI123456789012_GB_COREP030000_COREPOFCON_2021-06-30_20201218154733000.xbrl,513.3,8.07,Rust command line,0.9794,0.871,524,9.3,513.7,0.9862,32.17,1343,1188,46658,10,public sample; Line4 engine build that holds the EBA 3.0 checks
+BoE banking 4.1.1,ABCDEFGHIJ0123456789_GB_banking_PRA110_2021-11-30_20211025144301000.xbrl,481.2,15.13,Rust command line,1.936,1.040,249,15,481.9,1.944,89.04,1108,554,20457,8,Bank of England sample
+Solvency UK 2.2.0,ARB-targets.xbrl,440.5,9.19,Rust command line,2.031,0.753,217,12,457.4,2.038,29.76,698,649,5448,6,synthetic file (every datapoint filled)
+BoE banking 4.1.1,ABCDEFGHIJ0123456789_GB_banking_PRA001_2026-07-31_20260820132546000.control.xbrl,382.8,16.24,Rust command line,1.957,1.395,196,12,385.2,2.015,45.42,78,1361,86993,10,"control file (Bank of England sample with values changed); another Arelle run of this file was stopped before it finished, after 997 CPU s (7201 s wall); Arelle evaluated only 78 targeted assertions; Line4 ran all 1361 rules"
+BoE statistics 1.3.1,ALL-spaces.xbrl,365.0,1.71,Rust command line,0.5574,0.330,655,5.2,1083.3,0.5610,9.44,1286,1279,3833,10,control file (basic information changed)
+BoE statistics 1.3.1,ALL-defaults.xbrl,347.9,5.76,Rust command line,0.7250,0.470,480,12,459.2,0.7303,19.16,1286,1281,3835,10,synthetic file (every datapoint filled)
+EIOPA 2.10.0,random/ars_2026-06-30_instance.xbrl,229.7,7.37,Rust command line,0.6906,0.785,333,9.4,230.0,0.6989,13.29,2672,1997,4832,10,EIOPA sample
+EBA 3.0 (UK),p1_DUMMYLEI123456789012_GB_FINREP030000_FINREP9CONGAAP_2021-06-30_20201218154744000.xbrl,226.5,2.44,Rust command line,0.2823,0.296,802,8.2,382.0,0.2868,12.17,2183,2132,20303,10,public sample; Line4 engine build that holds the EBA 3.0 checks
+EBA 3.0 (UK),p1_DUMMYLEI123456789012_GB_FINREP030000_FINREP9CONIFRS_2021-06-30_20201218154746000.xbrl,219.1,1.80,Rust command line,0.2551,0.270,859,6.7,740.9,0.2589,11.18,1956,1911,18146,10,public sample; Line4 engine build that holds the EBA 3.0 checks
+BoE statistics 1.3.1,ABCDEFGHIJK123456789_GB_banking_stat_ALL_2025-12-31.xbrl,191.9,3.62,Rust command line,0.5686,0.330,338,11,197.5,0.5731,9.32,1286,1280,3834,10,Bank of England sample
+EIOPA 2.10.0,random/arb_2026-06-30_instance.xbrl,183.5,5.83,Rust command line,0.6016,0.640,305,9.1,183.7,0.6042,13.34,2033,1438,3910,10,EIOPA sample
+EBA 3.0 (UK),p1_DUMMYLEI123456789012_GB_COREP030000_COREPLCRDACON_2021-06-30_20201218154727000.xbrl,159.1,1.64,Rust command line,0.2172,0.205,733,8.0,500.6,0.2202,11.07,335,324,3877,10,public sample; Line4 engine build that holds the EBA 3.0 checks
+BoE statistics 1.3.1,ABCDEFGHIJK123456789_GB_banking_stat_IP_2025-12-31.xbrl,125.8,0.81,Rust command line,0.2141,0.012,588,68,126.9,0.2160,0.04,51,51,56,10,Bank of England sample
+EIOPA 2.10.0,random/arg_2026-06-30_instance.xbrl,119.1,3.99,Rust command line,0.5339,0.569,223,7.0,119.3,0.5394,11.58,1754,1276,2843,10,EIOPA sample
+EBA 3.0 (UK),p1_DUMMYLEI123456789012_GB_COREP030000_COREPALMCON_2021-06-30_20201218154719000.xbrl,102.9,1.80,Rust command line,0.3613,0.280,285,6.4,146.6,0.3645,23.84,128,128,2756,10,public sample; Line4 engine build that holds the EBA 3.0 checks
+Solvency UK 2.2.0,ABCDEFGHIJ0123456789_GB_insurance_ARS_2026-12-31.xbrl,69.2,4.29,Rust command line,0.2499,0.363,277,12,69.7,0.2536,1.16,1849,369,611,10,Bank of England sample; fastest of 2 complete Arelle runs
+EBA 4.2,DUMMYLEI123456789012.CON_FR_IF010400_IFCLASS2_2026-12-31_20260107124534492.xbrl,67.1,1.87,Rust command line,0.0986,0.088,680,21,67.2,0.1014,5.67,8129,224,7736,10,EBA sample (XBRL-XML); Arelle ran the formulas only (no XBRL 2.1 or dimensional validation)
+EBA 4.2,DUMMYLEI123456789012.CON_FR_COREP030300_COREPALM_2026-12-31_20251117220703862.xbrl,52.4,2.65,Rust command line,0.2280,0.178,230,15,52.5,0.2315,15.85,11990,134,11864,10,EBA sample (XBRL-XML); Arelle ran the formulas only (no XBRL 2.1 or dimensional validation)
+Solvency UK 2.2.0,ABCDEFGHIJ0123456789_GB_insurance_ARB_2026-12-31.xbrl,47.4,2.68,Rust command line,0.2932,0.262,162,10,47.5,0.2970,3.18,698,631,1725,10,Bank of England sample; fastest of 2 complete Arelle runs
+EBA 4.2,DUMMYLEI123456789012.CON_FR_RES020000_RESOL1_2026-12-31_20251117235715292.xbrl,31.0,1.22,Rust command line,0.0235,0.024,1321,51,33.0,0.0251,0.95,1850,96,1799,10,EBA sample (XBRL-XML)
+EBA 4.2,DUMMYLEI123456789012.CON_FR_ESG010300_ESG_2026-12-31_20251117221911160.xbrl,27.6,1.16,Rust command line,0.0437,0.044,630,26,27.6,0.0456,2.60,4036,228,3889,10,EBA sample (XBRL-XML); Arelle ran the formulas only (no XBRL 2.1 or dimensional validation)
+EIOPA 2.8.2,random/qrs_2024-10-15_instance.xbrl,26.2,1.36,Rust command line,0.0743,0.046,353,30,26.3,0.0763,0.73,537,367,962,10,EIOPA sample; fastest of 2 complete Arelle runs
+BoE statistics 1.3.1,ABCDEFGHIJK123456789_GB_banking_stat_AL_2025-12-31.xbrl,25.2,1.18,Rust command line,0.0651,0.059,387,20,28.6,0.0673,1.95,222,222,961,10,Bank of England sample
+EBA 4.2,DUMMYLEI123456789012.CON_FR_IRRBB010200_IRRBB_2026-12-31_20251117224408367.xbrl,24.7,1.88,Rust command line,0.0911,0.068,272,28,24.8,0.0930,4.67,4092,151,3601,10,EBA sample (XBRL-XML); Arelle ran the formulas only (no XBRL 2.1 or dimensional validation)
+EBA 3.0 (UK),p1_DUMMYLEI123456789012_GB_COREP030000_COREPNSFRCON_2021-06-30_20201218154732000.xbrl,21.7,1.30,Rust command line,0.0622,0.050,349,26,21.7,0.0642,3.85,165,98,196,10,public sample; Line4 engine build that holds the EBA 3.0 checks
+EBA 4.1,esg-4.1.xbrl,19.7,1.13,Rust command line,0.0444,0.043,444,26,19.7,0.0467,2.59,4028,194,3747,10,EBA sample (XBRL-XML); Arelle ran the formulas only (no XBRL 2.1 or dimensional validation)
+EIOPA 2.10.0,random/qrs_2026-06-30_instance.xbrl,19.0,1.00,Rust command line,0.0298,0.037,636,27,19.8,0.0317,0.32,521,336,844,10,EIOPA sample
+BoE statistics 1.3.1,ABCDEFGHIJK123456789_GB_banking_stat_AD_2025-12-31.xbrl,18.8,0.93,Rust command line,0.0510,0.044,368,21,19.4,0.0529,1.57,115,115,699,10,Bank of England sample
+Solvency UK 2.2.0,ABCDEFGHIJ0123456789_GB_insurance_ARG_2026-12-31.xbrl,18.7,1.29,Rust command line,0.1358,0.045,138,29,18.8,0.1379,0.65,427,397,955,10,Bank of England sample; fastest of 2 complete Arelle runs
+EIOPA 2.8.2,random/qrg_2024-10-15_instance.xbrl,18.2,1.06,Rust command line,0.0450,0.034,404,31,18.2,0.0468,0.44,410,251,669,10,EIOPA sample; fastest of 2 complete Arelle runs
+BoE banking 4.1.1,ABCDEFGHIJ0123456789_GB_banking_PRA112_2026-02-28_20260220142044000.xbrl,14.5,0.86,Rust command line,0.0397,0.035,367,24,14.9,0.0416,1.40,46,46,800,10,Bank of England sample
+Solvency UK 2.2.0,ABCDEFGHIJ0123456789_GB_insurance_QRS_2026-12-31.xbrl,13.6,1.02,Rust command line,0.0242,0.028,564,37,13.8,0.0256,0.39,268,226,694,10,Bank of England sample; fastest of 2 complete Arelle runs
+EIOPA 2.10.0,random/qfg_2026-06-30_instance.xbrl,13.1,1.01,Rust command line,0.0165,0.022,794,45,13.1,0.0180,0.18,374,187,390,10,EIOPA sample
+Solvency UK 2.2.0,ABCDEFGHIJ0123456789_GB_insurance_QRG_2026-12-31.xbrl,12.5,0.93,Rust command line,0.0203,0.022,618,42,12.6,0.0218,0.31,214,174,461,10,Bank of England sample; fastest of 2 complete Arelle runs
+EBA 3.0 (UK),p2_DUMMYLEI123456789012_GB_AE010101_AECON_2021-06-30_20210225222946000.xbrl,10.7,0.73,Rust command line,0.0263,0.032,408,23,10.7,0.0283,1.19,249,237,2063,10,public sample; Line4 engine build that holds the EBA 3.0 checks
+BoE statistics 1.3.1,ABCDEFGHIJK123456789_GB_banking_stat_BT_2025-12-31.xbrl,10.4,0.84,Rust command line,0.0213,0.021,491,39,10.5,0.0227,0.59,68,68,98,10,Bank of England sample
+BoE banking 4.1.1,ABCDEFGHIJ0123456789_GB_banking_RFB004_2021-11-30_20211025144409000.xbrl,9.6,0.71,Rust command line,0.0288,0.028,332,26,9.7,0.0304,0.94,161,161,1457,10,Bank of England sample
+EBA 4.0,corep_lr-4.0.xbrl,9.2,0.61,Rust command line,0.0071,0.010,1287,64,9.2,0.0083,0.22,327,60,318,10,EBA sample (XBRL-XML); Arelle ran the formulas only (no XBRL 2.1 or dimensional validation)
+EIOPA 2.10.0,random/qfs_2026-06-30_instance.xbrl,9.1,0.78,Rust command line,0.0068,0.011,1336,74,9.1,0.0081,0.03,216,50,103,10,EIOPA sample
+BoE banking 4.1.1,ABCDEFGHIJ0123456789_GB_banking_LVR001_2026-02-28_20260220142259000.xbrl,7.1,0.61,Rust command line,0.0088,0.010,811,60,7.2,0.0100,0.19,61,61,395,10,Bank of England sample
+EBA 3.0 (UK),p1_DUMMYLEI123456789012_GB_COREP030000_COREPLECON_2021-06-30_20201218154732000.xbrl,6.0,0.48,Rust command line,0.0077,0.009,780,53,6.0,0.0090,0.23,37,31,34,10,public sample; Line4 engine build that holds the EBA 3.0 checks

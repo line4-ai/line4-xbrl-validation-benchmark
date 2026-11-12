@@ -1,3 +1,5 @@
 measure,line4_engine,reference_processor,conditions
 one large FINREP filing,16 seconds,4.2 hours,controlled conditions
 full sample set (first run),13.5 minutes CPU,35.8 hours CPU,rough: heavily loaded machine; reference processor is single-threaded; controlled head-to-head still to come
+"cost per file, 56 files (median)",0.27 s CPU and 0.27 GB peak memory,122 s CPU and 2.2 GB peak memory,"same laptop; median per file of 540 times less CPU and 12 times less memory; Line4 one file at a time, Arelle from proving runs often under load; CPU and peak memory per process; see results/cost.csv"
+"cost of proving runs on one laptop, 9 to 12 Nov 2026",,"42.3 hours CPU in 2754 runs, up to 17.4 GB peak memory","we stopped proving checks against Arelle on the laptop on 12 Nov 2026 (16.8 hours CPU that day, load average 49 on 10 cores); see results/arelle-runs-by-day.csv"
